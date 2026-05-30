@@ -406,9 +406,4 @@ public class SpellingBee {
 		return scoreList;
 	}
 
-	/* Startup code */
-	public static void main(String[] args) { // application starts here
-		SpellingBee sb = new SpellingBee();
-		sb.run();// call the run method (defined below)
-	}
 }

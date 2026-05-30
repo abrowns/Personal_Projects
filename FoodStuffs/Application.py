@@ -94,7 +94,6 @@ def find_FoodItem(Name: str, pw: str) -> list[str]:
 def item_Macros(Name: str, pw:str) -> list[int]:
     return list[int]
 
-
 # print macro details of a food item
 def food_Details(Name: str, pw: str, filter: int) -> None:
     print("=================")
@@ -112,9 +111,7 @@ def food_Details(Name: str, pw: str, filter: int) -> None:
                     macs[0],   macs[1],    macs[2],      macs[3],   macs[4],      macs[5]       )
 
 
-
 #       =================== Actions =========================================================
-
 
 # Create new user using a username with a phone number
 def CreateUser(user:str, pw:str) -> None:

@@ -111,15 +111,15 @@ public class World
         return newGrid;
     }
 
-/** Checks a grid's cell's surroundings from given the grid location of the cell, and returns a boolean array
- * 
- * @param grid the grid of cells
- * @param i the row number integer
- * @param j the column number integer
- * 
- * @return boolean array: THE FIRST value is true if any of the surrounding cells are burning;
- *         THE SECOND is true if any of the surrounding cells are raging
- */
+    /** Checks a grid's cell's surroundings from given the grid location of the cell, and returns a boolean array
+     * 
+     * @param grid the grid of cells
+     * @param i the row number integer
+     * @param j the column number integer
+     * 
+     * @return boolean array: THE FIRST value is true if any of the surrounding cells are burning;
+     *         THE SECOND is true if any of the surrounding cells are raging
+     */
     public boolean[] checkSurroundings(Cell[][] grid, int i, int j)
     {
         String N, S, E, W, NE, NW, SE, SW;
